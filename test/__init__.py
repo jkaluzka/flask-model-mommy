@@ -1,0 +1,1 @@
+"""Flask Model Mommy tests."""
