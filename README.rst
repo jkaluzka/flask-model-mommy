@@ -2,13 +2,13 @@
 Flask-Model-Mommy
 ===============
 
-.. image:: https://travis-ci.org/mbr/flask-model-mommy.png?branch=master
-   :target: https://travis-ci.org/mbr/flask-model-mommy
+.. image:: https://travis-ci.org/jkaluzka/flask-model-mommy.png?branch=master
+   :target: https://travis-ci.org/jkaluzka/flask-model-mommy
 
 Flask-Model-Mommy is an simple package for making testing in Flask easier.
 It can create ``model`` instance without bothering about missing relationships
-and required fields. This package was inspired by @vandersonmota and his
-[model_mommy](https://github.com/vandersonmota/model_mommy) which I recommend
+and required fields. This package was inspired by `@vandersonmota <https://github.com/vandersonmota>`_ and his
+`model_mommy <https://github.com/vandersonmota/model_mommy>`_ which I recommend
 if you are developing applications in Django.
 
 

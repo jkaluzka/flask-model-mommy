@@ -1,3 +1,1 @@
-# Included because many Paas's require a requirements.txt file in the project root
-# Just installs the main requirements.
--r requirements/requirements.txt
+flask>=0.12.2

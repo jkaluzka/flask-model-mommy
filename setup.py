@@ -7,10 +7,14 @@ from os.path import join, dirname
 setuptools.setup(
     name='flask-model-mommy',
     version='0.1.0',
-    packages=['flask-model-mommy'],
+    packages=['flask_model_mommy'],
     include_package_data=True,  # declarations in MANIFEST.in
     install_requires=open(join(dirname(__file__), 'requirements.txt')).readlines(),
-    tests_require=open(join(dirname(__file__), 'requirements-dev.txt')).readlines(),
+    tests_require=[
+        'flask>=0.12.2',
+        'mock>=1.0.1',
+        'tox==2.9.1',
+    ],
     test_suite='runtests.runtests',
     author='jkaluzka',
     author_email='jkaluzka@gmail.com',
